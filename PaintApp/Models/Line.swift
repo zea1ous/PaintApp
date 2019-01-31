@@ -6,4 +6,10 @@
 //  Copyright © 2019 Alex Kolovatov. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+struct Line {
+    let strokeWidth: Float
+    let color: UIColor
+    var points: [CGPoint]
+}
